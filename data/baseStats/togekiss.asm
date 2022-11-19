@@ -2,7 +2,7 @@ TogekissBaseStats:
 db DEX_TOGEKISS ; pokedex id
 db 85 ; base hp
 db 50 ; base attack
-db 95 ; base defense
+db 90 ; base defense
 db 80 ; base speed
 db 120 ; base special
 db FAIRY ; species type 1

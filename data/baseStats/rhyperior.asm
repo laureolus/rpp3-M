@@ -1,6 +1,6 @@
 RhyperiorBaseStats:
 db DEX_RHYPERIOR ; pokedex id
-db 115 ; base hp
+db 125 ; base hp
 db 140 ; base attack
 db 130 ; base defense
 db 40 ; base speed

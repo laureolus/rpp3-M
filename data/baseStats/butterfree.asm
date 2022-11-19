@@ -1,8 +1,8 @@
 db DEX_BUTTERFREE ; pokedex id
-db 60 ; base hp
+db 65 ; base hp
 db 45 ; base attack
-db 50 ; base defense
-db 70 ; base speed
+db 60 ; base defense
+db 90 ; base speed
 db 90 ; base special
 db BUG ; species type 1
 db FLYING ; species type 2

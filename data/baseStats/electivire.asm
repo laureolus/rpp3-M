@@ -1,10 +1,10 @@
 ElectivireBaseStats:
 db DEX_ELECTIVIRE ; pokedex id
-db 75 ; base hp
-db 123 ; base attack
+db 85 ; base hp
+db 120 ; base attack
 db 67 ; base defense
 db 95 ; base speed
-db 95 ; base special
+db 90 ; base special
 db ELECTRIC ; species type 1
 db ELECTRIC ; species type 2
 db 30 ; catch rate

@@ -1,9 +1,9 @@
 db DEX_LINOONE ; pokedex id
 db 78  ; base hp
-db 70  ; base attack
+db 75  ; base attack
 db 61  ; base defense
 db 100 ; base speed
-db 61  ; base special
+db 65; base special
 db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 90 ; catch rate

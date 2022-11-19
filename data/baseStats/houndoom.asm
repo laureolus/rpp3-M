@@ -3,7 +3,7 @@ db DEX_HOUNDOOM ; pokedex id
 db 75 ; base hp
 db 90 ; base attack
 db 50 ; base defense
-db 95 ; base speed
+db 90 ; base speed
 db 110 ; base special
 db DARK ; species type 1
 db FIRE ; species type 2

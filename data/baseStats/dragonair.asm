@@ -1,6 +1,6 @@
 db DEX_DRAGONAIR ; pokedex id
 db 61 ; base hp
-db 84 ; base attack
+db 95 ; base attack
 db 65 ; base defense
 db 70 ; base speed
 db 70 ; base special

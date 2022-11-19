@@ -1,7 +1,7 @@
 db DEX_LAPRAS ; pokedex id
-db 130 ; base hp
-db 85 ; base attack
-db 80 ; base defense
+db 145 ; base hp
+db 80 ; base attack
+db 85 ; base defense
 db 60 ; base speed
 db 95 ; base special
 db WATER ; species type 1

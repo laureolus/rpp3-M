@@ -1,8 +1,8 @@
 db DEX_PRIMEAPE ; pokedex id
-db 65 ; base hp
+db 75 ; base hp
 db 105 ; base attack
 db 60 ; base defense
-db 95 ; base speed
+db 100 ; base speed
 db 60 ; base special
 db FIGHTING ; species type 1
 db FIGHTING ; species type 2

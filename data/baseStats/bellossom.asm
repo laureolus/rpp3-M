@@ -1,10 +1,10 @@
 BellossomBaseStats:
 db DEX_BELLOSSOM ; pokedex id
-db 75 ; base hp
-db 80 ; base attack
-db 95 ; base defense
-db 50 ; base speed
-db 100 ; base special
+db 70 ; base hp
+db 70 ; base attack
+db 70 ; base defense
+db 105 ; base speed
+db 110 ; base special
 db GRASS ; species type 1
 db GRASS ; species type 2
 db 45 ; catch rate

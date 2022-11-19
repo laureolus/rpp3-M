@@ -1,8 +1,8 @@
 SteelixBaseStats:
 db DEX_STEELIX ; pokedex id
 db 75 ; base hp
-db 85 ; base attack
-db 200 ; base defense
+db 95 ; base attack
+db 180 ; base defense
 db 30 ; base speed
 db 65 ; base special
 db STEEL ; species type 1

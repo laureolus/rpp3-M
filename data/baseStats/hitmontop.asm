@@ -1,7 +1,7 @@
 HitmontopBaseStats:
 db DEX_HITMONTOP ; pokedex id
 db 50 ; base hp
-db 95 ; base attack
+db 80 ; base attack
 db 95 ; base defense
 db 70 ; base speed
 db 110 ; base special

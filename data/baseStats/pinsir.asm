@@ -1,5 +1,5 @@
 db DEX_PINSIR ; pokedex id
-db 65 ; base hp
+db 70 ; base hp
 db 125 ; base attack
 db 100 ; base defense
 db 85 ; base speed

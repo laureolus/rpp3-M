@@ -2,7 +2,7 @@ MiltankBaseStats:
 db DEX_MILTANK ; pokedex id
 db 95 ; base hp
 db 80 ; base attack
-db 105 ; base defense
+db 115 ; base defense
 db 100 ; base speed
 db 70 ; base special
 db NORMAL ; species type 1

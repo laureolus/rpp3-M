@@ -1,11 +1,11 @@
 db DEX_NINETALES ; pokedex id
-db 73 ; base hp
-db 76 ; base attack
-db 75 ; base defense
-db 100 ; base speed
-db 100 ; base special
+db 70 ; base hp
+db 65 ; base attack
+db 70 ; base defense
+db 105 ; base speed
+db 105 ; base special
 db FIRE ; species type 1
-db FIRE ; species type 2
+db GHOST ; species type 2
 db 75 ; catch rate
 db 178 ; base exp yield
 INCBIN "pic/bmon/ninetales.pic",0,1 ; 77, sprite dimensions

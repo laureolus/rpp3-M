@@ -1,6 +1,6 @@
 db DEX_ZIGZAGOON ; pokedex id
 db 38 ; base hp
-db 30 ; base attack
+db 45 ; base attack
 db 41 ; base defense
 db 60 ; base speed
 db 41 ; base special

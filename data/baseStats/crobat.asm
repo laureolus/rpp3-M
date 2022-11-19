@@ -1,7 +1,7 @@
 CrobatBaseStats:
 db DEX_CROBAT ; pokedex id
 db 85 ; base hp
-db 90 ; base attack
+db 80 ; base attack
 db 80 ; base defense
 db 130 ; base speed
 db 80 ; base special

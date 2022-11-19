@@ -4,7 +4,7 @@ db 70 ; base hp
 db 85 ; base attack
 db 140 ; base defense
 db 20 ; base speed
-db 85 ; base special
+db 100 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2
 db 90 ; catch rate

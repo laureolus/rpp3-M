@@ -1,7 +1,7 @@
 MagmortarBaseStats:
 db DEX_MAGMORTAR ; pokedex id
-db 75 ; base hp
-db 95 ; base attack
+db 95 ; base hp
+db 85 ; base attack
 db 67 ; base defense
 db 83 ; base speed
 db 125 ; base special

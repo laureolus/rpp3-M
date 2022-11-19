@@ -1,6 +1,6 @@
 SlowkingBaseStats:
 db DEX_SLOWKING ; pokedex id
-db 95 ; base hp
+db 105 ; base hp
 db 75 ; base attack
 db 80 ; base defense
 db 30 ; base speed

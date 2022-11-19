@@ -467,7 +467,7 @@ Mon012_EvosMoves:
 	db 29,WHIRLWIND
 	db 31,BUG_BUZZ
 	db 35,REFLECT ; Rage Powder → RBY TM Move
-	db 37,AGILITY ; Captivate → New Move
+	db 37,GIGA_DRAIN ; Captivate → New Move
 	db 41,RECOVER ; Tailwind → New Move
 	db 43,AIR_SLASH
 	db 47,PSYCHIC_M ; Quiver Dance → TM Move
@@ -507,7 +507,7 @@ Mon015_EvosMoves:
 	db 1,TWINEEDLE
 	db 11,FURY_ATTACK
 	db 11,TWINEEDLE
-	db 14,RAGE
+	db 14,QUICK_ATTACK
 	db 17,SILVER_WIND ; Pursuit → Butterfree Move
 	db 20,FOCUS_ENERGY
 	db 23,ACROBATICS ; Venoshock → TM Move
@@ -535,7 +535,8 @@ Mon016_EvosMoves:
 	db 25,SWIFT ; Feather Dance → TM Move
 	db 29,AGILITY
 	db 33,WING_ATTACK
-	db 37,REST ; Roost → Other healing move
+	db 37,SOFTBOILED ; Roost → Other healing move
+	db 39,COUNTER
 	db 41,DRILL_PECK ; Tailwind → New Move
 	db 45,STEEL_WING ; Mirror Move → TM Move
 	db 49,AIR_SLASH
@@ -557,7 +558,8 @@ Mon017_EvosMoves:
 	db 27,SWIFT ; Feather Dance → TM Move
 	db 32,AGILITY
 	db 37,WING_ATTACK
-	db 42,REST ; Roost → Other healing move
+	db 42,SOFTBOILED ; Roost → Other healing move
+	db 44,COUNTER
 	db 47,DRILL_PECK ; Tailwind → New Move
 	db 52,STEEL_WING ; Mirror Move → TM Move
 	db 57,AIR_SLASH
@@ -578,7 +580,8 @@ Mon018_EvosMoves:
 	db 27,SWIFT ; Feather Dance → TM move
 	db 32,AGILITY
 	db 38,WING_ATTACK
-	db 44,REST ; Roost → Other healing move
+	db 44,SOFTBOILED ; Roost → Other healing move
+	db 48,COUNTER
 	db 50,DRILL_PECK ; Tailwind → new move
 	db 56,STEEL_WING ; Mirror Move → TM Move
 	db 62,AIR_SLASH
@@ -600,7 +603,7 @@ Mon019_EvosMoves:
 	db 16,HYPER_FANG
 	db 19,SUCKER_PUNCH
 	db 22,CRUNCH
-	db 25,FEINT_ATTACK ; Assurance → Similar Move
+	db 25,SUBMISSION ; Assurance → Similar Move
 	db 28,SUPER_FANG
 	db 31,DOUBLE_EDGE
 	db 34,COUNTER ; Endeavor → Egg Move
@@ -621,7 +624,7 @@ Mon020_EvosMoves:
 	db 19,SUCKER_PUNCH
 	db 20,LEER
 	db 24,CRUNCH
-	db 29,FEINT_ATTACK ; Assurance → Similar Move
+	db 29,SUBMISSION ; Assurance → Similar Move
 	db 34,SUPER_FANG
 	db 39,DOUBLE_EDGE
 	db 44,COUNTER ; Endeavor → Egg Move
@@ -645,6 +648,8 @@ Mon021_EvosMoves:
 	db 29,STEEL_WING ; Focus Energy → TM Move
 	db 32,REST ; Roost → Other healing move
 	db 36,DRILL_PECK
+    db 40,BODY_SLAM
+	db 44,CRUNCH
 	db 0
 
 Mon022_EvosMoves:
@@ -664,6 +669,8 @@ Mon022_EvosMoves:
 	db 36,REST ; Roost → Other healing move
 	db 41,DRILL_PECK
 	db 45,AIR_SLASH ; Drill Run → New move
+	db 49,BODY_SLAM
+	db 52,CRUNCH
 	db 0
 
 Mon023_EvosMoves:
@@ -684,9 +691,10 @@ Mon023_EvosMoves:
 	db 35,MUD_BOMB
 	db 36,POISON_JAB ; Gastro Acid → TM Move
 	db 38,TOXIC ; Belch → TM Move
-	db 41,HAZE
+	db 41,TWINEEDLE
 	db 44,IRON_DEFENSE ; Coil → New Move
 	db 49,GUNK_SHOT
+	db 50,CONFUSE_RAY
 	db 0
 
 Mon024_EvosMoves:
@@ -706,11 +714,12 @@ Mon024_EvosMoves:
 	db 27,POISON_FANG ; Stockpile + Spit Up + Swallow → New Move
 	db 32,BITE ; Acid Spray → New Move
 	db 39,MUD_BOMB
-	db 44,POISON_JAB ; Gastro Acid → TM Move
-	db 48,TOXIC ; Belch → TM Move
-	db 51,HAZE
-	db 56,IRON_DEFENSE ; Coil → New Move
-	db 63,GUNK_SHOT
+	db 41,POISON_JAB ; Gastro Acid → TM Move
+	db 44,TOXIC ; Belch → TM Move
+	db 47,TWINEEDLE
+	db 49,IRON_DEFENSE ; Coil → New Move
+	db 50,GUNK_SHOT
+	db 54,CONFUSE_RAY
 	db 0
 
 Mon025_EvosMoves:
@@ -860,15 +869,23 @@ Mon031_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 1,STORM_THROW ; Superpower → New Move
 	db 1,SCRATCH
 	db 1,GROWL
-	db 1,DOUBLE_KICK
-	db 1,POISON_STING
-	db 23,OUTRAGE ; Chip Away → HGSS Tutor Move
-	db 35,BODY_SLAM
-	db 43,EARTH_POWER
-	db 58,STORM_THROW ; Superpower → New Move
+	db 7,TAIL_WHIP
+	db 9,DOUBLE_KICK
+	db 13,POISON_STING
+	db 20,FURY_SWIPES
+	db 23,BITE
+	db 25,POISON_FANG ; Helping Hand → New Move
+	db 29,TOXIC ; Toxic Spikes → TM Move
+	db 33,HEALINGLIGHT ; Flatter → event move (Moonlight)
+	db 36,CRUNCH
+	db 39,FLASH_CANNON ; Captivate → TM Move
+	db 43,POISON_JAB
+	db 49,IRON_TAIL ; Chip Away → HGSS Tutor Move
+	db 53,BODY_SLAM
+	db 55,EARTH_POWER
+	db 60,STORM_THROW ; Superpower → New Move
 	db 0
 
 Mon032_EvosMoves:
@@ -918,16 +935,24 @@ Mon034_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 1,MEGAHORN
 	db 1,PECK
-	db 1,FOCUS_ENERGY
-	db 1,DOUBLE_KICK
-	db 7,FOCUS_ENERGY
-	db 23,OUTRAGE ; Chip Away → HGSS tutor move
-	db 35,THRASH
-	db 43,EARTH_POWER
-	db 58,MEGAHORN
-	db 59,HORN_DRILL
+	db 1,LEER
+	db 5,FOCUS_ENERGY
+	db 7,DOUBLE_KICK
+	db 9,POISON_STING
+	db 13,FURY_ATTACK
+	db 18,HORN_ATTACK
+	db 21,POISON_FANG ; Helping Hand → New Move
+	db 25,TOXIC ; Toxic Spikes → TM Move
+	db 28,HONE_CLAWS ; Flatter → event move (Moonlight)
+	db 33,POISON_JAB
+	db 36,MEGA_KICK ; Captivate → TM Move
+	db 40,MEGAHORN ; Horn Drill → Nidoking Move
+	db 42,OUTRAGE ; Chip Away → HGSS tutor move
+	db 48,THRASH
+	db 51,EARTH_POWER
+	db 57,MEGAHORN
+	db 60,HORN_DRILL
 	db 0
 
 Mon035_EvosMoves:

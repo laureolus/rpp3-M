@@ -1,9 +1,9 @@
 db DEX_SANDSLASH ; pokedex id
-db 75 ; base hp
+db 70 ; base hp
 db 100 ; base attack
-db 110 ; base defense
-db 65 ; base speed
-db 55 ; base special
+db 95 ; base defense
+db 90 ; base speed
+db 65 ; base special
 db GROUND ; species type 1
 db GROUND ; species type 2
 db 90 ; catch rate

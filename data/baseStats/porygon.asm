@@ -1,6 +1,6 @@
 db DEX_PORYGON ; pokedex id
 db 65 ; base hp
-db 60 ; base attack
+db 70 ; base attack
 db 70 ; base defense
 db 40 ; base speed
 db 75 ; base special

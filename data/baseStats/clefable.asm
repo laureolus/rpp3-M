@@ -1,7 +1,7 @@
 db DEX_CLEFABLE ; pokedex id
 db 95 ; base hp
 db 70 ; base attack
-db 73 ; base defense
+db 80 ; base defense
 db 60 ; base speed
 db 95 ; base special
 db FAIRY ; species type 1

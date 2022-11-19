@@ -1,9 +1,9 @@
 db DEX_RAICHU ; pokedex id
 db 60 ; base hp
-db 90 ; base attack
-db 55 ; base defense
+db 95 ; base attack
+db 60 ; base defense
 db 110 ; base speed
-db 90 ; base special
+db 95 ; base special
 db ELECTRIC ; species type 1
 db ELECTRIC ; species type 2
 db 75 ; catch rate

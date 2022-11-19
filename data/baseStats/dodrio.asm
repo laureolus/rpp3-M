@@ -1,7 +1,7 @@
 db DEX_DODRIO ; pokedex id
 db 60 ; base hp
 db 110 ; base attack
-db 70 ; base defense
+db 80 ; base defense
 db 110 ; base speed
 db 60 ; base special
 db NORMAL ; species type 1

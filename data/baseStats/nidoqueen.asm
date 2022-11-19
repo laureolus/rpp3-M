@@ -1,11 +1,11 @@
 db DEX_NIDOQUEEN ; pokedex id
-db 90 ; base hp
-db 92 ; base attack
-db 87 ; base defense
-db 76 ; base speed
-db 75 ; base special
+db 85 ; base hp
+db 75 ; base attack
+db 80 ; base defense
+db 80 ; base speed
+db 105 ; base special
 db POISON ; species type 1
-db GROUND ; species type 2
+db STEEL ; species type 2
 db 45 ; catch rate
 db 194 ; base exp yield
 INCBIN "pic/bmon/nidoqueen.pic",0,1 ; 77, sprite dimensions

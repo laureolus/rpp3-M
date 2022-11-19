@@ -1,10 +1,10 @@
 TangrowthBaseStats:
 db DEX_TANGROWTH ; pokedex id
-db 100 ; base hp
-db 100 ; base attack
-db 125 ; base defense
+db 140 ; base hp
+db 70 ; base attack
+db 140 ; base defense
 db 50 ; base speed
-db 110 ; base special
+db 95 ; base special
 db GRASS ; species type 1
 db GRASS ; species type 2
 db 30 ; catch rate

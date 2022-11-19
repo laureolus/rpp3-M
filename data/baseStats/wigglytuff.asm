@@ -1,7 +1,7 @@
 db DEX_WIGGLYTUFF ; pokedex id
-db 140 ; base hp
+db 160 ; base hp
 db 70 ; base attack
-db 45 ; base defense
+db 80 ; base defense
 db 45 ; base speed
 db 85 ; base special
 db NORMAL ; species type 1
