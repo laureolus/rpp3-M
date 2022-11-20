@@ -2,7 +2,7 @@ LanturnBaseStats:
 db DEX_LANTURN ; pokedex id
 db 125 ; base hp
 db 58 ; base attack
-db 75 ; base defense
+db 80 ; base defense
 db 67 ; base speed
 db 85 ; base special
 db WATER ; species type 1
